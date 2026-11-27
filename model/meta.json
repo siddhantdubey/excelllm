@@ -1,0 +1,31 @@
+{
+ "config": {
+  "vocab_size": 27,
+  "block_size": 15,
+  "n_layer": 2,
+  "n_head": 2,
+  "d_model": 32,
+  "d_mlp": 64
+ },
+ "best_step": 5500,
+ "chars": "abcdefghijklmnopqrstuvwxyz",
+ "val_loss": 1.7525660991668701,
+ "train_loss": 1.4771714210510254,
+ "args": {
+  "corpus": "data/dinos.txt",
+  "out": "runs/f15-s2",
+  "layers": 2,
+  "heads": 2,
+  "d": 32,
+  "mlp": 64,
+  "steps": 6000,
+  "lr": 0.003,
+  "wd": 0.1,
+  "bs": 128,
+  "seed": 2,
+  "maxlen": 15,
+  "dropout": 0.2,
+  "block": 15
+ },
+ "n_params": 19387
+}
